@@ -1,0 +1,30 @@
+body{
+    background-color: gold;
+}
+h1{
+    color: white;
+    background-color: skyblue;
+}
+#sketch_options{
+    float: right;
+}
+canvas{
+    
+    border-width: 5px;
+    border-style: ridge;
+    animation-name: box_shadow;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+img{
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+}
+@keyframes box_shadow {
+    from{box-shadow: 0px 0px 100px cyan;}
+    to {box-shadow: 0px 0px 100px darkblue;}
+    to{box-shadow: 0px 0px 100px pink;}
+    to{box-shadow: 0px 0px 100px red;}
+    
+}
